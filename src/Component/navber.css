@@ -46,6 +46,8 @@
     display: flex;
     gap: 10px;
     align-items: center;
+    display: flex;
+    justify-content: center;
   }
   .inner::before {
     content: "";
@@ -181,3 +183,8 @@
   }
   
   
+  @media only screen and (max-width: 767px) {
+   .button{
+    width: 100%;
+   }
+  }

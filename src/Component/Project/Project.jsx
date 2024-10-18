@@ -46,8 +46,8 @@ export default function Project() {
                 className="mySwiper"
             >
                 <SwiperSlide className='rounded-[15px]'>
-                    <div className="w-full">
-                        <a href="https://alternative-product-11.web.app">
+                    <div className="w-full" >
+                        <a href="https://alternative-product-11.web.app" >
 
                             <div
                                 className="overflow-hidden bg-cover bg-center w-full rounded-lg cursor-pointer h-[350px] group"
@@ -65,7 +65,12 @@ export default function Project() {
                                         The Alternative Product Project is a full-stack project. In this project, functionalities such as adding, updating, and deleting items are implemented.
                                     </p>
                                     <p className="mt-2 text-center text-lg tracking-wider text-blue-400 uppercase ">
-                                        <BiCommentDetail className='mx-auto text-white text-3xl' />
+
+                                        <button title="Save" class="mx-auto cursor-pointer flex items-center fill-lime-400 bg-[#01eeff81] gap-2 hover:bg-lime-900 active:border active:border-lime-400 rounded-md duration-100 px-4 py-2">
+
+                                            <BiCommentDetail className='mx-auto  text-2xl text-white' />
+                                            <span className="text-sm  font-bold pr-1 text-white">Details</span>
+                                        </button>
                                     </p>
                                 </div>
                             </div>
@@ -93,7 +98,12 @@ export default function Project() {
                                         This project is simple full-stack project with pagination, which includes search, sort, and filter functionalities. The pagination is implemented to handle the end of the dataset efficiently.
                                     </p>
                                     <p className="mt-2 text-center text-lg tracking-wider text-blue-400 uppercase ">
-                                        <BiCommentDetail className='mx-auto text-white text-3xl' />
+
+                                        <button title="Save" class="mx-auto cursor-pointer flex items-center fill-lime-400 bg-[#01eeff81] gap-2 hover:bg-lime-900 active:border active:border-lime-400 rounded-md duration-100 px-4 py-2">
+
+                                            <BiCommentDetail className='mx-auto  text-2xl text-white' />
+                                            <span className="text-sm  font-bold pr-1 text-white">Details</span>
+                                        </button>
                                     </p>
                                 </div>
                             </div>
@@ -101,7 +111,7 @@ export default function Project() {
                     </div>
 
                 </SwiperSlide>
-                
+
                 <SwiperSlide className='rounded-[15px]'>
                     <div className="w-full">
                         <a href="https://alternative-product-11.web.app">
@@ -122,7 +132,12 @@ export default function Project() {
                                         Abul Khair website is a font website which uses different UI design and functionality
                                     </p>
                                     <p className="mt-2 text-center text-lg tracking-wider text-blue-400 uppercase ">
-                                        <BiCommentDetail className='mx-auto text-white text-3xl' />
+
+                                        <button title="Save" class="mx-auto cursor-pointer flex items-center fill-lime-400 bg-[#01eeff81] gap-2 hover:bg-lime-900 active:border active:border-lime-400 rounded-md duration-100 px-4 py-2">
+
+                                            <BiCommentDetail className='mx-auto  text-2xl text-white' />
+                                            <span className="text-sm  font-bold pr-1 text-white">Details</span>
+                                        </button>
                                     </p>
                                 </div>
                             </div>

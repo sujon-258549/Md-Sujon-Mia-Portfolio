@@ -93,10 +93,10 @@ const Navbar = () => {
 
                         {/* Mobile Menu open: "block", Menu closed: "hidden" */}
                         <div
-                            className={`absolute inset-x-0 z-20  w-full px-6 py-4 transition-all duration-300 ease-in-out lg:bg-transparent bg-white lg:dark:bg-transparent dark:bg-gray-800 md:mt-0 md:p-0 md:top-0 md:relative md:bg-transparent md:w-auto md:opacity-100 md:translate-x-0 md:flex md:items-center ${isOpen ? 'translate-x-0 opacity-100' : 'opacity-0 -translate-x-full'
+                            className={`absolute inset-x-0 mt-3 z-20  w-full px-6 py-4 transition-all duration-300 ease-in-out lg:bg-transparent bg-white lg:dark:bg-transparent dark:bg-gray-800 md:mt-0 md:p-0 md:top-0 md:relative md:bg-transparent md:w-auto md:opacity-100 md:translate-x-0 md:flex md:items-center ${isOpen ? 'translate-x-0 opacity-100' : 'opacity-0 -translate-x-full'
                                 }`}
                         >
-                            <div className="flex flex-col md:flex-row gap-2 md:mx-6">
+                            <div className="flex flex-col md:flex-row gap-2 md:mx-6 ">
                                 <a href={'#'}>
                                     <button className="button">
                                         <div className="blob1"></div>
