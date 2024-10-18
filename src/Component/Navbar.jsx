@@ -104,30 +104,31 @@ const Navbar = () => {
                                         <div className="inner">Home</div>
                                     </button>
                                 </a>
-                                <a href={'#'}>
+                                {/* <a href={'#'}>
                                     <button className="button">
                                         <div className="blob1"></div>
                                         <div className="blob2"></div>
                                         <div className="inner">About Us</div>
                                     </button>
-                                </a>
-                                <a href={'#'}>
+                                </a> */}
+                                <a href={'#skills'}>
                                     <button className="button">
                                         <div className="blob1"></div>
                                         <div className="blob2"></div>
                                         <div className="inner">Skills</div>
                                     </button>
                                 </a>
-                                <a href={'/reservation'}>
+                                <a href={'#projects'}>
                                     <button className="button">
                                         <div className="blob1"></div>
                                         <div className="blob2"></div>
-                                        <div className="inner">Servises</div>
+                                        <div className="inner">Projects</div>
                                     </button>
                                 </a>
 
 
-                                <a href={'#'}>
+
+                                <a href={'#contact'}>
                                     <button className="button">
                                         <div className="blob1"></div>
                                         <div className="blob2"></div>
@@ -144,9 +145,12 @@ const Navbar = () => {
             </div>
 
             <Banner></Banner>
-            <Skills></Skills>
+            <section id='skills'>
 
-            <section className='bg-[#000000cf]'>
+                <Skills></Skills>
+            </section>
+
+            <section className='bg-[#000000cf]' id='projects'>
                 <section className='w-[90%] mx-auto banner pb-10 md:pb-20'>
                     <h2 className="text-2xl md:text-4xl md:w-96 text-[#01ecff] mx-auto  lg:text-5xl  font-bold text-center font-frank pb-10 md:pb-20">Project Section</h2>
 
@@ -154,7 +158,7 @@ const Navbar = () => {
                 </section>
 
             </section>
-            <section className='bg-[#000000cf] '>
+            <section className='bg-[#000000cf] ' id='contact'>
                 <Contact2></Contact2>
             </section>
         </section >
