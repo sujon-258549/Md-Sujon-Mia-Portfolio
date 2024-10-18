@@ -114,7 +114,7 @@ export default function Project() {
 
                 <SwiperSlide className='rounded-[15px]'>
                     <div className="w-full">
-                        <a href="https://alternative-product-11.web.app">
+                        <a href="https://aboul-khair-cgut.vercel.app">
 
                             <div
                                 className="overflow-hidden  bg-cover bg-center w-full rounded-lg cursor-pointer h-[350px] group"
