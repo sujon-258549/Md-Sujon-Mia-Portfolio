@@ -50,25 +50,26 @@ const Banner = () => {
                             </p>
 
                             <div className='flex gap-2 justify-center lg:justify-start pt-10'>
-                                <a href="https://www.facebook.com/profile.php?id=100088142062918">
-                                    <FaFacebookF className='text-[#01ECFF] border border-[#01ECFF] text-4xl font-bold rounded-full p-2'></FaFacebookF>
+                                <a href="https://www.facebook.com/profile.php?id=100088142062918" title="Facebook" className='transition-transform transform hover:scale-105'>
+                                    <FaFacebookF className='text-[#01ECFF] border border-[#01ECFF] text-4xl font-bold rounded-full p-2 hover:bg-[#01ECFF] hover:text-white'></FaFacebookF>
                                 </a>
-                                <a href="https://github.com/sujon-258549">
-                                    <FaGithub className='text-[#01ECFF] border border-[#01ECFF] text-4xl font-bold rounded-full p-2'></FaGithub>
+                                <a href="https://github.com/sujon-258549" title="GitHub" className='transition-transform transform hover:scale-105'>
+                                    <FaGithub className='text-[#01ECFF] border border-[#01ECFF] text-4xl font-bold rounded-full p-2 hover:bg-[#01ECFF] hover:text-white'></FaGithub>
                                 </a>
-                                <a href="https://www.linkedin.com/in/sujon25">
-                                    <FaLinkedinIn className='text-[#01ECFF] border border-[#01ECFF] text-4xl font-bold rounded-full p-2'></FaLinkedinIn>
+                                <a href="https://www.linkedin.com/in/sujon25" title="LinkedIn" className='transition-transform transform hover:scale-105'>
+                                    <FaLinkedinIn className='text-[#01ECFF] border border-[#01ECFF] text-4xl font-bold rounded-full p-2 hover:bg-[#01ECFF] hover:text-white'></FaLinkedinIn>
                                 </a>
-                                {/* <a href="">
-                                    <FaDiscord className='text-[#01ECFF] border border-[#01ECFF] text-4xl font-bold rounded-full p-2'></FaDiscord>
-                                </a> */}
-                                <a href="mailto:sujon258549@gmail.com">
-                                    <MdEmail className='text-[#01ECFF] border border-[#01ECFF] text-4xl font-bold rounded-full p-2'></MdEmail>
+                                {/* <a href="" title="Discord" className='transition-transform transform hover:scale-105'>
+        <FaDiscord className='text-[#01ECFF] border border-[#01ECFF] text-4xl font-bold rounded-full p-2 hover:bg-[#01ECFF] hover:text-white'></FaDiscord>
+    </a> */}
+                                <a href="mailto:sujon258549@gmail.com" title="Email" className='transition-transform transform hover:scale-105'>
+                                    <MdEmail className='text-[#01ECFF] border border-[#01ECFF] text-4xl font-bold rounded-full p-2 hover:bg-[#01ECFF] hover:text-white'></MdEmail>
                                 </a>
-                                <a href="tel:01790876529">
-                                    <FaPhoneSquare className='text-[#01ECFF] border border-[#01ECFF] text-4xl font-bold rounded-full p-2'></FaPhoneSquare>
+                                <a href="tel:01790876529" title="Phone" className='transition-transform transform hover:scale-105'>
+                                    <FaPhoneSquare className='text-[#01ECFF] border border-[#01ECFF] text-4xl font-bold rounded-full p-2 hover:bg-[#01ECFF] hover:text-white'></FaPhoneSquare>
                                 </a>
                             </div>
+
                             <p className="mt-5">
 
                                 <a href='https://drive.google.com/file/d/1ijl5c_SwNSUe_RmLn2e9TNx9Bw3MjhyK/view?usp=sharing'>
