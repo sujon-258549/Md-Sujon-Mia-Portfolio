@@ -13,6 +13,8 @@ import { FaProductHunt } from 'react-icons/fa';
 import { BiCommentDetail } from 'react-icons/bi';
 import { ImBlog } from 'react-icons/im';
 import { SiStatuspage } from 'react-icons/si';
+// import { PinContainer } from '../ui/3d-pin';
+// import { AnimatedPinDemo } from '../ui/AnimatedPinDemo';
 
 export default function Project() {
     return (
@@ -46,37 +48,38 @@ export default function Project() {
                 className="mySwiper"
             >
                 <SwiperSlide className='rounded-[15px]'>
-                    <div className="w-full" >
-                        <a href="https://alternative-product-11.web.app" >
+                    {/* <PinContainer> */}
+                        <div className="w-full" >
+                            <a href="https://alternative-product-11.web.app" >
 
-                            <div
-                                className="overflow-hidden bg-cover bg-center w-full rounded-lg cursor-pointer h-[350px] group"
-                                style={{
-                                    backgroundImage:
-                                        'url("/altranative.jpg")', borderRadius: '10px'
-                                }}
-                            >
-                                <div className="flex flex-col justify-center w-full rounded-lg h-full px-8 py-4 transition-opacity duration-700 group-hover:opacity-0 backdrop-blur-sm bg-gray-800/60 opacity-100">
-                                    <FaProductHunt className='mx-auto text-white text-3xl' />
-                                    <h2 className="mt-4 text-center text-xl font-semibold text-white capitalize">
-                                        Alternative Product
-                                    </h2>
-                                    <p className='text-white text-sm py-4'>
-                                        The Alternative Product Project is a full-stack project. In this project, functionalities such as adding, updating, and deleting items are implemented.
-                                    </p>
-                                    <p className="mt-2 text-center text-lg tracking-wider text-blue-400 uppercase ">
+                                <div
+                                    className="overflow-hidden bg-cover bg-center w-full rounded-lg cursor-pointer h-[350px] group"
+                                    style={{
+                                        backgroundImage:
+                                            'url("/altranative.jpg")', borderRadius: '10px'
+                                    }}
+                                >
+                                    <div className="flex flex-col justify-center w-full rounded-lg h-full px-8 py-4 transition-opacity duration-700 group-hover:opacity-0 backdrop-blur-sm bg-gray-800/60 opacity-100">
+                                        <FaProductHunt className='mx-auto text-white text-3xl' />
+                                        <h2 className="mt-4 text-center text-xl font-semibold text-white capitalize">
+                                            Alternative Product
+                                        </h2>
+                                        <p className='text-white text-sm py-4'>
+                                            The Alternative Product Project is a full-stack project. In this project, functionalities such as adding, updating, and deleting items are implemented.
+                                        </p>
+                                        <p className="mt-2 text-center text-lg tracking-wider text-blue-400 uppercase ">
 
-                                        <button title="Save" class="mx-auto cursor-pointer flex items-center fill-lime-400 bg-[#01eeff81] gap-2 hover:bg-lime-900 active:border active:border-lime-400 rounded-md duration-100 px-4 py-2">
+                                            <button title="Save" class="mx-auto cursor-pointer flex items-center fill-lime-400 bg-[#01eeff81] gap-2 hover:bg-lime-900 active:border active:border-lime-400 rounded-md duration-100 px-4 py-2">
 
-                                            <BiCommentDetail className='mx-auto  text-2xl text-white' />
-                                            <span className="text-sm  font-bold pr-1 text-white">Details</span>
-                                        </button>
-                                    </p>
+                                                <BiCommentDetail className='mx-auto  text-2xl text-white' />
+                                                <span className="text-sm  font-bold pr-1 text-white">Details</span>
+                                            </button>
+                                        </p>
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
-                    </div>
-
+                            </a>
+                        </div>
+                    {/* </PinContainer> */}
                 </SwiperSlide>
                 <SwiperSlide className='rounded-[15px]'>
                     <div className="w-full">
@@ -113,6 +116,8 @@ export default function Project() {
                 </SwiperSlide>
 
                 <SwiperSlide className='rounded-[15px]'>
+                    {/* <AnimatedPinDemo> */}
+
                     <div className="w-full">
                         <a href="https://aboul-khair-cgut.vercel.app">
 
@@ -143,6 +148,7 @@ export default function Project() {
                             </div>
                         </a>
                     </div>
+                    {/* </AnimatedPinDemo> */}
 
                 </SwiperSlide>
 

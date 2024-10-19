@@ -9,6 +9,8 @@ import Project from './Project/Project';
 import Contact2 from './contact/Contact2';
 import { GridBackgroundDemo } from './ui/GridBackgroundDemo';
 import Watermark from './logo/Watermark';
+import { BackgroundLines } from './ui/BackgroundLines';
+import Footer from './Footer/Footer';
 
 
 const Navbar = () => {
@@ -16,17 +18,22 @@ const Navbar = () => {
 
 
     return (
+
         <section className=''>
 
-            <div className='fixed w-full bg-black' style={{ zIndex: '999' }}>
+            <BackgroundLines>
 
 
-                <nav className="relative max-w-6xl mx-auto ">
-                    <div className=" px-5 py-3 mx-auto md:flex md:justify-between md:items-center">
-                        <div className="flex items-center justify-between">
 
-                            <Watermark></Watermark>
-                            {/* <button
+                <div className='fixed w-full bg-black' style={{ zIndex: '999' }}>
+
+
+                    <nav className="relative max-w-6xl mx-auto ">
+                        <div className=" px-5 py-3 mx-auto md:flex md:justify-between md:items-center">
+                            <div className="flex items-center justify-between">
+
+                                <Watermark></Watermark>
+                                {/* <button
                                 style={{ boxShadow: '1px 1px 10px #fff' }} className="relative inline-flex items-center justify-center px-8 py-2.5 overflow-hidden tracking-tighter text-white bg-gray-800 rounded-md group"
                             >
                                 <span
@@ -69,101 +76,103 @@ const Navbar = () => {
 
 
 
-                            {/* Mobile menu button */}
-                            <div className="flex md:hidden">
-                                <button
-                                    onClick={() => setIsOpen(!isOpen)}
-                                    type="button"
-                                    className="text-gray-500 dark:text-gray-200 hover:text-gray-600 dark:hover:text-gray-400 focus:outline-none focus:text-gray-600 dark:focus:text-gray-400"
-                                    aria-label="toggle menu"
-                                >
-                                    {!isOpen ? (
-                                        <div className='text-3xl border rounded-[6px]'>
-                                            <IoMenu></IoMenu>
+                                {/* Mobile menu button */}
+                                <div className="flex md:hidden">
+                                    <button
+                                        onClick={() => setIsOpen(!isOpen)}
+                                        type="button"
+                                        className="text-gray-500 dark:text-gray-200 hover:text-gray-600 dark:hover:text-gray-400 focus:outline-none focus:text-gray-600 dark:focus:text-gray-400"
+                                        aria-label="toggle menu"
+                                    >
+                                        {!isOpen ? (
+                                            <div className='text-3xl border rounded-[6px]'>
+                                                <IoMenu></IoMenu>
 
-                                        </div>
-                                    ) : (
-                                        <div className='text-3xl border rounded-[6px]'>
-                                            <RxCross2></RxCross2>
+                                            </div>
+                                        ) : (
+                                            <div className='text-3xl border rounded-[6px]'>
+                                                <RxCross2></RxCross2>
 
-                                        </div>
-                                    )}
-                                </button>
-                            </div>
-                        </div>
-
-                        {/* Mobile Menu open: "block", Menu closed: "hidden" */}
-                        <div
-                            className={`absolute inset-x-0 mt-3 z-20  w-full px-6 py-4 transition-all duration-300 ease-in-out lg:bg-transparent bg-white lg:dark:bg-transparent dark:bg-gray-800 md:mt-0 md:p-0 md:top-0 md:relative md:bg-transparent md:w-auto md:opacity-100 md:translate-x-0 md:flex md:items-center ${isOpen ? 'translate-x-0 opacity-100' : 'opacity-0 -translate-x-full'
-                                }`}
-                        >
-                            <div className="flex flex-col md:flex-row gap-2 md:mx-6 ">
-                                <a href={'#'}>
-                                    <button className="button">
-                                        <div className="blob1"></div>
-                                        <div className="blob2"></div>
-                                        <div className="inner">Home</div>
+                                            </div>
+                                        )}
                                     </button>
-                                </a>
-                                {/* <a href={'#'}>
+                                </div>
+                            </div>
+
+                            {/* Mobile Menu open: "block", Menu closed: "hidden" */}
+                            <div
+                                className={`absolute inset-x-0 mt-3 z-20  w-full px-6 py-4 transition-all duration-300 ease-in-out lg:bg-transparent bg-white lg:dark:bg-transparent dark:bg-gray-800 md:mt-0 md:p-0 md:top-0 md:relative md:bg-transparent md:w-auto md:opacity-100 md:translate-x-0 md:flex md:items-center ${isOpen ? 'translate-x-0 opacity-100' : 'opacity-0 -translate-x-full'
+                                    }`}
+                            >
+                                <div className="flex flex-col md:flex-row gap-2 md:mx-6 ">
+                                    <a href={'#'}>
+                                        <button className="button">
+                                            <div className="blob1"></div>
+                                            <div className="blob2"></div>
+                                            <div className="inner">Home</div>
+                                        </button>
+                                    </a>
+                                    {/* <a href={'#'}>
                                     <button className="button">
                                         <div className="blob1"></div>
                                         <div className="blob2"></div>
                                         <div className="inner">About Us</div>
                                     </button>
                                 </a> */}
-                                <a href={'#skills'}>
-                                    <button className="button">
-                                        <div className="blob1"></div>
-                                        <div className="blob2"></div>
-                                        <div className="inner">Skills</div>
-                                    </button>
-                                </a>
-                                <a href={'#projects'}>
-                                    <button className="button">
-                                        <div className="blob1"></div>
-                                        <div className="blob2"></div>
-                                        <div className="inner">Projects</div>
-                                    </button>
-                                </a>
+                                    <a href={'#skills'}>
+                                        <button className="button">
+                                            <div className="blob1"></div>
+                                            <div className="blob2"></div>
+                                            <div className="inner">Skills</div>
+                                        </button>
+                                    </a>
+                                    <a href={'#projects'}>
+                                        <button className="button">
+                                            <div className="blob1"></div>
+                                            <div className="blob2"></div>
+                                            <div className="inner">Projects</div>
+                                        </button>
+                                    </a>
 
 
 
-                                <a href={'#contact'}>
-                                    <button className="button">
-                                        <div className="blob1"></div>
-                                        <div className="blob2"></div>
-                                        <div className="inner">Contact Us</div>
-                                    </button>
-                                </a>
+                                    <a href={'#contact'}>
+                                        <button className="button">
+                                            <div className="blob1"></div>
+                                            <div className="blob2"></div>
+                                            <div className="inner">Contact Us</div>
+                                        </button>
+                                    </a>
+
+                                </div>
+
 
                             </div>
-
-
                         </div>
-                    </div>
-                </nav>
-            </div>
+                    </nav>
+                </div>
 
-            <Banner></Banner>
-            <section id='skills'>
+                <Banner></Banner>
+                <section id='skills'>
 
-                <Skills></Skills>
-            </section>
-
-            <section className='bg-[#000000cf]' id='projects'>
-                <section className='w-[90%] mx-auto banner pb-10 md:pb-20'>
-                    <GridBackgroundDemo header={'Project Section'}>
-
-                    </GridBackgroundDemo>
-
-                    <Project></Project>
+                    <Skills></Skills>
                 </section>
 
-            </section>
-            <section className='bg-[#000000cf] ' id='contact'>
-                <Contact2></Contact2>
-            </section>
+                <section className='bg-[#000000cf]' id='projects'>
+                    <section className='w-[90%] mx-auto banner pb-10 md:pb-20'>
+                        <GridBackgroundDemo header={'Project Section'}>
+
+                        </GridBackgroundDemo>
+
+                        <Project></Project>
+                    </section>
+
+                </section>
+                <section className='bg-[#000000cf] ' id='contact'>
+                    <Contact2></Contact2>
+                </section>
+                <Footer></Footer>
+            </BackgroundLines>
         </section >
     );
 };
