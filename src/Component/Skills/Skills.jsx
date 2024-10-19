@@ -5,6 +5,8 @@ import { RiReactjsLine } from 'react-icons/ri';
 import { DiMongodb } from 'react-icons/di';
 import { motion } from 'framer-motion';
 import './skills.css';
+import { GridBackgroundDemo } from '../ui/GridBackgroundDemo';
+
 
 const Skills = () => {
     const skills = [
@@ -22,10 +24,11 @@ const Skills = () => {
     ];
 
     return (
-        <section className=' pb-10 md:pb-20 bg-[#000000cf]'> 
+        <section className=' pb-10 md:pb-20 bg-[#000000cf]'>
 
-<h1 data-aos="fade-right" data-aos-delay="500" className="text-[#01ecff] text-2xl md:text-4xl md:w-96 mx-auto  lg:text-5xl  font-bold text-center  pt-10 md:pt-16">Skills Section</h1>
-            <img className='mx-auto pt-5 pb-5 md:pb-16' src="https://sujob258549.github.io/silverhok/img/icon.png" alt="" />
+            <GridBackgroundDemo header={'Skills Section'}>
+            </GridBackgroundDemo>
+
             <div className='w-[90%] mx-auto flex justify-center flex-wrap gap-5'>
 
 

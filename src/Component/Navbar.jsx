@@ -7,6 +7,8 @@ import Banner from './Banner/Banner';
 import Skills from './Skills/Skills';
 import Project from './Project/Project';
 import Contact2 from './contact/Contact2';
+import { GridBackgroundDemo } from './ui/GridBackgroundDemo';
+import Watermark from './logo/Watermark';
 
 
 const Navbar = () => {
@@ -23,9 +25,8 @@ const Navbar = () => {
                     <div className=" px-5 py-3 mx-auto md:flex md:justify-between md:items-center">
                         <div className="flex items-center justify-between">
 
-
-
-                            <button
+                            <Watermark></Watermark>
+                            {/* <button
                                 style={{ boxShadow: '1px 1px 10px #fff' }} className="relative inline-flex items-center justify-center px-8 py-2.5 overflow-hidden tracking-tighter text-white bg-gray-800 rounded-md group"
                             >
                                 <span
@@ -63,7 +64,7 @@ const Navbar = () => {
                                     className="absolute inset-0 w-full h-full -mt-1 rounded-lg opacity-30 bg-gradient-to-b from-transparent via-transparent to-gray-200"
                                 ></span>
                                 <span className="relative text-base font-semibold">My Portfolio</span>
-                            </button>
+                            </button> */}
 
 
 
@@ -152,7 +153,9 @@ const Navbar = () => {
 
             <section className='bg-[#000000cf]' id='projects'>
                 <section className='w-[90%] mx-auto banner pb-10 md:pb-20'>
-                    <h2 className="text-2xl md:text-4xl md:w-96 text-[#01ecff] mx-auto  lg:text-5xl  font-bold text-center font-frank pb-10 md:pb-20">Project Section</h2>
+                    <GridBackgroundDemo header={'Project Section'}>
+
+                    </GridBackgroundDemo>
 
                     <Project></Project>
                 </section>

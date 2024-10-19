@@ -1,0 +1,41 @@
+.content{
+    width: 150px;
+    position: relative;
+    margin: 0 auto;
+    color: #1C9E99;
+    padding-left: 155px;
+}
+.content h2{
+    position: absolute;
+    color: white;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.content h2:nth-child(1){
+   color: transparent;
+   -webkit-text-stroke: 2px #1C9E99;
+}
+
+.content h2:nth-child(2){
+   color: #1C9E99;
+  animation: animate 4s ease-in-out infinite;
+}
+
+@keyframes animate{
+    
+    0%,100%{
+        clip-path: polygon(34% 47%, 51% 57%, 76% 57%, 89% 53%, 100% 44%, 100% 100%, 21% 100%, 0 100%, 1% 41%, 18% 40%);
+    }
+    50%{
+        clip-path: polygon(19% 63%, 44% 65%, 60% 59%, 75% 45%, 100% 44%, 100% 100%, 21% 100%, 0 100%, 0 44%, 9% 54%);
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .content h2{
+        font-size: 30px;
+    }
+  }

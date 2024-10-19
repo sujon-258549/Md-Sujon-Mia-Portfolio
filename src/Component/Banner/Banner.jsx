@@ -4,6 +4,8 @@ import { useTypewriter } from 'react-simple-typewriter';
 import { FaArrowDown, FaFacebookF, FaGithub, FaLinkedinIn, FaPhoneSquare } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
 
+// import  ShootingStarsAndStarsBackgroundDemo  from '../../Component/ui/ShootingStarsAndStarsBackgroundDemo';
+
 
 const Banner = () => {
 
@@ -15,8 +17,11 @@ const Banner = () => {
 
     return (
         <div className='bg-[#000000cf]'>
-
+            {/* <ShootingStarsAndStarsBackgroundDemo> */}
             <section className='w-[90%] mx-auto banner pb-10 md:pb-20'>
+                {/* <div className='py-20'>
+                    <Watermark></Watermark>
+                </div> */}
                 <section className="pt-40">
                     <div className=" px-8 lg:flex items-center lg:justify-between">
                         <div className="text-center lg:text-left lg:w-1/2" data-aos-delay="500" data-aos="fade-right">
@@ -369,6 +374,7 @@ const Banner = () => {
                     </div>
                 </section>
             </section>
+            {/* </ShootingStarsAndStarsBackgroundDemo> */}
         </div>
     );
 }
