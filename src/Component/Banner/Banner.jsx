@@ -70,9 +70,9 @@ const Banner = () => {
                                 </a>
                             </div>
 
-                            <p className="mt-5">
+                            <p className="mt-5 mx-auto  flex justify-center pb-10 lg:pb-0 lg:justify-start">
 
-                                <a href='https://drive.google.com/file/d/1ijl5c_SwNSUe_RmLn2e9TNx9Bw3MjhyK/view?usp=sharing'>
+                                <a href='https://drive.google.com/file/d/127Wkem3CgpQG2eb7PhJqMrSSF7lryNbG/view?usp=sharing'>
                                     <>
                                         <>
 
