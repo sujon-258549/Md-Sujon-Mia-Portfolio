@@ -35,7 +35,7 @@ const Banner = () => {
                                     <feBlend in="SourceGraphic"></feBlend>
                                 </filter>
                             </svg>
-                            <h1>Hi I,am Sujon Mia</h1>
+                            <h1 className='lg:-ml-28'>Hi I,am Sujon Mia</h1>
                             <div className='text-[#01ECFF] text-2xl font-semibold pt-2' >
                                 I ,am
 

@@ -49,36 +49,70 @@ export default function Project() {
             >
                 <SwiperSlide className='rounded-[15px]'>
                     {/* <PinContainer> */}
-                        <div className="w-full" >
-                            <a href="https://alternative-product-11.web.app" >
+                    <div className="w-full" >
+                        <a href="https://inventory-management-354ce.web.app/" >
 
-                                <div
-                                    className="overflow-hidden bg-cover bg-center w-full rounded-lg cursor-pointer h-[350px] group"
-                                    style={{
-                                        backgroundImage:
-                                            'url("/altranative.jpg")', borderRadius: '10px'
-                                    }}
-                                >
-                                    <div className="flex flex-col justify-center w-full rounded-lg h-full px-8 py-4 transition-opacity duration-700 group-hover:opacity-0 backdrop-blur-sm bg-gray-800/60 opacity-100">
-                                        <FaProductHunt className='mx-auto text-white text-3xl' />
-                                        <h2 className="mt-4 text-center text-xl font-semibold text-white capitalize">
-                                            Alternative Product
-                                        </h2>
-                                        <p className='text-white text-sm py-4'>
-                                            The Alternative Product Project is a full-stack project. In this project, functionalities such as adding, updating, and deleting items are implemented.
-                                        </p>
-                                        <p className="mt-2 text-center text-lg tracking-wider text-blue-400 uppercase ">
+                            <div
+                                className="overflow-hidden bg-cover bg-center w-full rounded-lg cursor-pointer h-[350px] group"
+                                style={{
+                                    backgroundImage:
+                                        'url("/g.jpg")', borderRadius: '10px'
+                                }}
+                            >
+                                <div className="flex flex-col justify-center w-full rounded-lg h-full px-8 py-4 transition-opacity duration-700 group-hover:opacity-0 backdrop-blur-sm bg-gray-800/60 opacity-100">
+                                    <FaProductHunt className='mx-auto text-white text-3xl' />
+                                    <h2 className="mt-4 text-center text-xl font-semibold text-white capitalize">
+                                        Garments Industry Monitoring Software
+                                    </h2>
+                                    <p className='text-white text-sm py-4'>
+                                        This project is an inventory and monitoring software for the garments industry, built with React.js for the frontend, styled with Tailwind CSS and DaisyUI, and supported by Firebase Authentication for secure user login. The backend is powered by MongoDB and Express.js, with deployment on Firebase and Vercel.
+                                    </p>
+                                    <p className="mt-2 text-center text-lg tracking-wider text-blue-400 uppercase ">
 
-                                            <button title="Save" class="mx-auto cursor-pointer flex items-center fill-lime-400 bg-[#01eeff81] gap-2 hover:bg-lime-900 active:border active:border-lime-400 rounded-md duration-100 px-4 py-2">
+                                        <button title="Save" class="mx-auto cursor-pointer flex items-center fill-lime-400 bg-[#01eeff81] gap-2 hover:bg-lime-900 active:border active:border-lime-400 rounded-md duration-100 px-4 py-2">
 
-                                                <BiCommentDetail className='mx-auto  text-2xl text-white' />
-                                                <span className="text-sm  font-bold pr-1 text-white">Details</span>
-                                            </button>
-                                        </p>
-                                    </div>
+                                            <BiCommentDetail className='mx-auto  text-2xl text-white' />
+                                            <span className="text-sm  font-bold pr-1 text-white">Details</span>
+                                        </button>
+                                    </p>
                                 </div>
-                            </a>
-                        </div>
+                            </div>
+                        </a>
+                    </div>
+                    {/* </PinContainer> */}
+                </SwiperSlide>
+                <SwiperSlide className='rounded-[15px]'>
+                    {/* <PinContainer> */}
+                    <div className="w-full" >
+                        <a href="https://alternative-product-11.web.app" >
+
+                            <div
+                                className="overflow-hidden bg-cover bg-center w-full rounded-lg cursor-pointer h-[350px] group"
+                                style={{
+                                    backgroundImage:
+                                        'url("/altranative.jpg")', borderRadius: '10px'
+                                }}
+                            >
+                                <div className="flex flex-col justify-center w-full rounded-lg h-full px-8 py-4 transition-opacity duration-700 group-hover:opacity-0 backdrop-blur-sm bg-gray-800/60 opacity-100">
+                                    <FaProductHunt className='mx-auto text-white text-3xl' />
+                                    <h2 className="mt-4 text-center text-xl font-semibold text-white capitalize">
+                                        Alternative Product
+                                    </h2>
+                                    <p className='text-white text-sm py-4'>
+                                        The Alternative Product Project is a full-stack project. In this project, functionalities such as adding, updating, and deleting items are implemented.
+                                    </p>
+                                    <p className="mt-2 text-center text-lg tracking-wider text-blue-400 uppercase ">
+
+                                        <button title="Save" class="mx-auto cursor-pointer flex items-center fill-lime-400 bg-[#01eeff81] gap-2 hover:bg-lime-900 active:border active:border-lime-400 rounded-md duration-100 px-4 py-2">
+
+                                            <BiCommentDetail className='mx-auto  text-2xl text-white' />
+                                            <span className="text-sm  font-bold pr-1 text-white">Details</span>
+                                        </button>
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
                     {/* </PinContainer> */}
                 </SwiperSlide>
                 <SwiperSlide className='rounded-[15px]'>
