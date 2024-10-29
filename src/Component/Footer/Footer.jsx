@@ -7,7 +7,7 @@ const Footer = () => {
         <section className="bg-[#000]">
             <div className="text-center py-6">
                 <footer className="flex flex-col space-y-10 justify-center m-10">
-                    <img className="w-32 mx-auto" src="https://i.ibb.co/5YxcrMh/fainal.png" alt="Logo" />
+                    <img className="w-32 mx-auto" src="https://i.ibb.co/5YxcrMh/fainal.png" alt="Logos" />
                     <div className='flex gap-2 justify-center'>
                         <a href="https://www.facebook.com/profile.php?id=100088142062918" aria-label="Facebook">
                             <FaFacebookF className='text-[#01ECFF] border border-[#01ECFF] text-4xl font-bold rounded-full p-2' />
