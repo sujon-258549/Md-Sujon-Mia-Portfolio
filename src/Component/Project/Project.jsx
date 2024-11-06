@@ -7,73 +7,57 @@ import 'swiper/css/pagination';
 import 'swiper/css/autoplay'; // Import Autoplay CSS
 
 // Import required modules
-import { Pagination, Autoplay } from 'swiper/modules'; // Import Autoplay along with Pagination
+import { Pagination, Autoplay, Navigation } from 'swiper/modules'; // Import Autoplay along with Pagination
 import { FaProductHunt } from 'react-icons/fa';
 import { BiCommentDetail } from 'react-icons/bi';
 import { ImBlog } from 'react-icons/im';
 import { SiStatuspage } from 'react-icons/si';
+import './customswiper.css'
+import { Project01 } from '../Banner/Project/project01';
+import { Project02 } from '../Banner/Project/project02';
+import { Project03 } from '../Banner/Project/Project3';
+import { Project04 } from '../Banner/Project/Project4';
+
 
 export default function Project() {
     return (
         <Swiper
+            navigation={true}
             slidesPerView={3} // Default number of slides
-            spaceBetween={30}
+            // spaceBetween={30}
             loop={true}
             autoplay={{
-                delay: 2500,
+                delay: 102500,
                 disableOnInteraction: false,
             }}
             pagination={{
                 clickable: true,
+                type: 'bullets',  // This will show the pagination dots (bullets)
             }}
             breakpoints={{
                 320: {
                     slidesPerView: 1,
-                    spaceBetween: 10,
+
                 },
                 768: {
                     slidesPerView: 2,
-                    spaceBetween: 20,
                 },
                 1024: {
                     slidesPerView: 3,
-                    spaceBetween: 30,
                 },
             }}
-            modules={[Pagination, Autoplay]} // Ensure Autoplay is included here
-            className="mySwiper"
+            modules={[Pagination, Autoplay, Navigation]} // Ensure Autoplay is included here
+            className="mySwiper" style={{ zIndex: '9', paddingBottom: '50px' }}
         >
             {/* Slide 1 */}
-            <SwiperSlide className='rounded-[15px]'>
-                <div className="w-full">
-                    <a href="https://inventory-management-354ce.web.app/" >
-                        <div
-                            className="overflow-hidden bg-cover bg-center w-full rounded-lg cursor-pointer h-[350px] group"
-                            style={{ backgroundImage: 'url("/g.jpg")' }}
-                        >
-                            <div className="flex flex-col justify-center w-full rounded-lg h-full px-8 py-4 transition-opacity duration-700 group-hover:opacity-0 backdrop-blur-sm bg-gray-800/60 opacity-100">
-                                <FaProductHunt className='mx-auto text-white text-3xl' />
-                                <h2 className="mt-4 text-center text-xl font-semibold text-white capitalize">
-                                    Garments Industry Monitoring Software
-                                </h2>
-                                <p className='text-white text-sm py-4'>
-                                    This project is an inventory and monitoring software for the garments industry...
-                                </p>
-                                <p className="mt-2 text-center text-lg tracking-wider text-blue-400 uppercase">
-                                    <button title="Save" className="mx-auto cursor-pointer flex items-center bg-[#01eeff81] gap-2 hover:bg-lime-900 rounded-md duration-100 px-4 py-2">
-                                        <BiCommentDetail className='mx-auto text-2xl text-white' />
-                                        <span className="text-sm font-bold pr-1 text-white">Details</span>
-                                    </button>
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
+            <SwiperSlide>
+                <Project01 />
             </SwiperSlide>
 
             {/* Slide 2 */}
             <SwiperSlide className='rounded-[15px]'>
-                <div className="w-full">
+                <Project02 />
+                {/* <div className="w-full">
                     <a href="https://alternative-product-11.web.app">
                         <div
                             className="overflow-hidden bg-cover bg-center w-full rounded-lg cursor-pointer h-[350px] group"
@@ -96,12 +80,12 @@ export default function Project() {
                             </div>
                         </div>
                     </a>
-                </div>
+                </div> */}
             </SwiperSlide>
 
             {/* Slide 3 */}
             <SwiperSlide className='rounded-[15px]'>
-                <div className="w-full">
+                {/* <div className="w-full">
                     <a href="https://unmok-task.web.app">
                         <div
                             className="overflow-hidden bg-cover bg-center w-full rounded-lg cursor-pointer h-[350px] group"
@@ -124,12 +108,13 @@ export default function Project() {
                             </div>
                         </div>
                     </a>
-                </div>
+                </div> */}
+                <Project03></Project03>
             </SwiperSlide>
-
             {/* Slide 4 */}
             <SwiperSlide className='rounded-[15px]'>
-                <div className="w-full">
+                <Project04></Project04>
+                {/* <div className="w-full">
                     <a href="https://aboul-khair-cgut.vercel.app">
                         <div
                             className="overflow-hidden bg-cover bg-center w-full rounded-lg cursor-pointer h-[350px] group"
@@ -152,7 +137,7 @@ export default function Project() {
                             </div>
                         </div>
                     </a>
-                </div>
+                </div> */}
             </SwiperSlide>
         </Swiper>
     );

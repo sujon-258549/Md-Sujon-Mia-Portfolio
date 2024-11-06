@@ -1,0 +1,40 @@
+.swiper-slide {
+    background-color: transparent;
+
+}
+
+.swiper-wrapper {
+    position: relative;
+}
+
+.swiper-button-prev {
+    position: absolute !important;
+    top: 93% !important;
+    z-index: 999;
+    left: 71% !important;
+    font-weight: 900 !important;
+    border: 2px solid;
+    padding: 20px 20px !important;
+    border-radius: 100%;
+    /* background: rgb(73, 55, 146); */
+    --swiper-navigation-size: 25px !important;
+}
+
+
+
+.swiper-button-next {
+    position: absolute !important;
+    top: 93% !important;
+    z-index: 999;
+    left: 80% !important;
+    font-weight: 900 !important;
+    border: 2px solid;
+    padding: 20px 20px !important;
+    border-radius: 100%;
+    /* background: rgb(73, 55, 146); */
+    --swiper-navigation-size: 25px !important;
+}
+
+element.style {
+    margin-right: 0px !important;
+}

@@ -11,6 +11,9 @@ import { GridBackgroundDemo } from './ui/GridBackgroundDemo';
 import Watermark from './logo/Watermark';
 import { BackgroundLines } from './ui/BackgroundLines';
 import Footer from './Footer/Footer';
+import { AnimatedPinDemo } from './Banner/Project/project02';
+import Project2 from './Project/Project2';
+
 
 
 const Navbar = () => {
@@ -163,8 +166,10 @@ const Navbar = () => {
                         <GridBackgroundDemo header={'Project Section'}>
 
                         </GridBackgroundDemo>
+                        {/* <AnimatedPinDemo></AnimatedPinDemo> */}
 
                         <Project></Project>
+                        {/* <Project2></Project2> */}
                     </section>
 
                 </section>

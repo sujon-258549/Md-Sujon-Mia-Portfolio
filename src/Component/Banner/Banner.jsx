@@ -22,7 +22,7 @@ const Banner = () => {
                 {/* <div className='py-20'>
                     <Watermark></Watermark>
                 </div> */}
-                <section className="pt-40">
+                <section className="pt-28 md:pt-40">
                     <div className=" px-8 lg:flex items-center lg:justify-between">
                         <div className="text-center lg:text-left lg:w-1/2" data-aos-delay="500" data-aos="fade-right">
                             {/* /* From Uiverse.io by akshat-patel28 */}

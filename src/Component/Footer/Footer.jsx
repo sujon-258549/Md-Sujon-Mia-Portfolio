@@ -4,7 +4,7 @@ import { MdEmail } from 'react-icons/md';
 
 const Footer = () => {
     return (
-        <section className="bg-[#000]">
+        <section  className="bg-[#000]">
             <div className="text-center py-6">
                 <footer className="flex flex-col space-y-10 justify-center m-10">
                     <img className="w-32 mx-auto" src="https://i.ibb.co/5YxcrMh/fainal.png" alt="Logos" />
