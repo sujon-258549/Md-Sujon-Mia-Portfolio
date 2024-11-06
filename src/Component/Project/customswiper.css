@@ -11,7 +11,7 @@
     position: absolute !important;
     top: 93% !important;
     z-index: 999;
-    left: 71% !important;
+    left: 85% !important;
     font-weight: 900 !important;
     border: 2px solid;
     padding: 20px 20px !important;
@@ -26,7 +26,7 @@
     position: absolute !important;
     top: 93% !important;
     z-index: 999;
-    left: 80% !important;
+    left: 90% !important;
     font-weight: 900 !important;
     border: 2px solid;
     padding: 20px 20px !important;
@@ -37,4 +37,32 @@
 
 element.style {
     margin-right: 0px !important;
+}
+
+@media only screen and (max-width: 1024px) {
+    .swiper-button-next {
+        /* Add any styles for .swiper-button-next here */
+    }
+
+    .swiper-button-prev {
+        left: 82% !important;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .swiper-button-next {
+        /* Add any styles for .swiper-button-next here */
+    }
+
+    .swiper-button-prev {
+        left: 77% !important;
+    }
+}
+@media only screen and (max-width: 520px) {
+    .swiper-button-next {
+        left: 80% !important;
+    }
+
+    .swiper-button-prev {
+        left: 60% !important;
+    }
 }

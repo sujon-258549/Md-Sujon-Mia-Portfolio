@@ -8,10 +8,10 @@ import 'swiper/css/autoplay'; // Import Autoplay CSS
 
 // Import required modules
 import { Pagination, Autoplay, Navigation } from 'swiper/modules'; // Import Autoplay along with Pagination
-import { FaProductHunt } from 'react-icons/fa';
-import { BiCommentDetail } from 'react-icons/bi';
-import { ImBlog } from 'react-icons/im';
-import { SiStatuspage } from 'react-icons/si';
+// import { FaProductHunt } from 'react-icons/fa';
+// import { BiCommentDetail } from 'react-icons/bi';
+// import { ImBlog } from 'react-icons/im';
+// import { SiStatuspage } from 'react-icons/si';
 import './customswiper.css'
 import { Project01 } from '../Banner/Project/project01';
 import { Project02 } from '../Banner/Project/project02';
@@ -27,7 +27,7 @@ export default function Project() {
             // spaceBetween={30}
             loop={true}
             autoplay={{
-                delay: 4000,
+                delay: 54000,
                 disableOnInteraction: false,
             }}
             pagination={{

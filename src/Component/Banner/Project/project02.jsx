@@ -3,7 +3,7 @@ import React from "react";
 import { PinContainer } from "../../ui/PinContainer";
 import { FaLeftLong, FaRightLong, FaSquareGithub } from "react-icons/fa6";
 import { CgMediaLive } from "react-icons/cg";
-import Image from "next/image";
+// import Image from "next/image";
 import './h.css'
 import './socal.css'
 import { IoServerSharp } from "react-icons/io5";
@@ -26,7 +26,7 @@ export function Project02() {
                             {/* <h2 className="text-center">Image Scroll on Hover</h2> */}
                             <div className="col-md-4 col-md-offset-4 contents">
                                 <div className="screens">
-                                    <Image src="/222.png" alt="Scrollable Content" />
+                                    <img src="/222.png" alt="Scrollable Content" />
                                 </div>
                             </div>
                         </div>

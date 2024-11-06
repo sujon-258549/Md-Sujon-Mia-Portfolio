@@ -157,7 +157,6 @@ const Navbar = () => {
 
                 <Banner></Banner>
                 <section id='skills'>
-
                     <Skills></Skills>
                 </section>
 
