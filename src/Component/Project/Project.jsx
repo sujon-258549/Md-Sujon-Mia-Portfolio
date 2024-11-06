@@ -27,7 +27,7 @@ export default function Project() {
             // spaceBetween={30}
             loop={true}
             autoplay={{
-                delay: 102500,
+                delay: 4000,
                 disableOnInteraction: false,
             }}
             pagination={{
