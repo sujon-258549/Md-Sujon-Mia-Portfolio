@@ -6,6 +6,7 @@ import { DiMongodb } from 'react-icons/di';
 import { motion } from 'framer-motion';
 import './skills.css';
 import { GridBackgroundDemo } from '../ui/GridBackgroundDemo';
+import { BiLogoTypescript } from "react-icons/bi";
 
 
 const Skills = () => {
@@ -15,6 +16,7 @@ const Skills = () => {
         { icon: <FaHtml5 />, title: 'HTML' },
         { icon: <FaCss3Alt />, title: 'CSS' },
         { icon: <FaBootstrap />, title: 'Bootstrap' },
+        { icon: <BiLogoTypescript />, title: 'Typescript' },
         { icon: <FaJsSquare />, title: 'JavaScript' },
         { icon: <FaNodeJs />, title: 'Node.js' },
         { icon: <DiMongodb />, title: 'MongoDB' },
