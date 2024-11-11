@@ -12,7 +12,7 @@ import { BiLogoTypescript } from "react-icons/bi";
 const Skills = () => {
     const skills = [
 
-        { icon: <RiReactjsLine />, title: 'React' },
+        { icon: <RiReactjsLine />, title: 'React' },//title 
         { icon: <FaHtml5 />, title: 'HTML' },
         { icon: <FaCss3Alt />, title: 'CSS' },
         { icon: <FaBootstrap />, title: 'Bootstrap' },
